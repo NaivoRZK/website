@@ -1,0 +1,16 @@
+# 1. Créer et basculer sur la branche feature
+git checkout -b feature
+  #Pour vérifier le status branche actuel
+    git remote -v
+
+# 2. Ajouter tous les fichiers modifiés + nouveaux
+git add .
+
+# 3. Faire un commit avec un message clair
+git commit -m "Ajout du code initial pour la branche feature"
+
+# 4. Pousser vers GitHub
+git push -u origin feature
+
+# 5.Lier le depot local avec depot distant 
+git remote set-url origin https://github.com/NaivoRZK/website.git
