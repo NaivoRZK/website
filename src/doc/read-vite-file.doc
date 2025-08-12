@@ -1,0 +1,5 @@
+# Augmente la limite de watchers (8192 -> 524288)
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+
+# Recharge la config
+sudo sysctl -p
