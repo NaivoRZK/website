@@ -1,0 +1,6 @@
+#Installer tailwind v4 sur React
+      1-npm install tailwindcss @tailwindcss/vite
+       2-Importer Tailwind dans ton CSS global (src/index.css) :
+            @import "tailwindcss";
+       3-Importer ce fichier CSS global dans src/main.jsx ou src/main.tsx :
+            import './index.css'
